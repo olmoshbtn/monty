@@ -15,10 +15,10 @@ int main(int argc, char **argv)
 	ssize_t n_read = 0;
 
 	if (argc != 2)
-		pfailure("USAGE: monty file\n");
+		print_fail("USAGE: monty file\n");
 
 	if (!freopen(argv[1], "r", stdin))
-		pfailure("Error: Can't open file %s\n", argv[1]);
+		print_fail("Error: Can't open file %s\n", argv[1]);
 
 	atexit(free_op_env);
 
