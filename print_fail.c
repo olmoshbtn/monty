@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * pfailure - print an error message and exit
+ * print_fail - print an error message and exit
  * @fmt: format string
  * @...: format string parameters
  *
